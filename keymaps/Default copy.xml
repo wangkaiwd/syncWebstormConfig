@@ -46,6 +46,9 @@
   <action id="QuickImplementations">
     <keyboard-shortcut first-keystroke="alt space" />
   </action>
+  <action id="Refactorings.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="meta t" />
+  </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="meta l" />
   </action>
@@ -61,5 +64,6 @@
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="meta i" />
   </action>
+  <action id="Vcs.UpdateProject" />
   <action id="ViewSource" />
 </keymap>
