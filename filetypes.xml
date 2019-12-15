@@ -6,6 +6,7 @@
       <mapping pattern="demo5" type="JavaScript" />
       <mapping pattern="CNAME" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
+      <mapping pattern="1" type="PLAIN_TEXT" />
       <mapping pattern="note" type="PLAIN_TEXT" />
       <mapping pattern=".env.analysis" type="PLAIN_TEXT" />
       <mapping ext="tsc" type="PLAIN_TEXT" />

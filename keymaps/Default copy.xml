@@ -21,6 +21,9 @@
   </action>
   <action id="EditorSplitLine" />
   <action id="FileChooser.TogglePathShowing" />
+  <action id="Generate">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
   <action id="Git.Pull">
     <keyboard-shortcut first-keystroke="meta y" />
   </action>
