@@ -8,6 +8,13 @@
     <variable name="HEADER_VALUE" expression="" defaultValue="&quot;application/json&quot;" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="ptr" value="POST http://$HOST$/$PATH$&#10;Content-Type: $HEADER_VALUE$&#10;&#10;$BODY$&#10;&#10;###" description="POST http://example.com/add..." toReformat="true" toShortenFQNames="false">
+    <variable name="HOST" expression="" defaultValue="&quot;localhost:80&quot;" alwaysStopAt="true" />
+    <variable name="PATH" expression="" defaultValue="&quot;api/item&quot;" alwaysStopAt="true" />
+    <variable name="HEADER_VALUE" expression="" defaultValue="&quot;application/json&quot;" alwaysStopAt="true" />
+    <variable name="BODY" expression="" defaultValue="&quot;{}&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
   <template name="ptrp" value="POST http://$HOST$/$PATH$&#10;Content-Type: application/x-www-form-urlencoded&#10;&#10;$PARAM1$=$VALUE1$&amp;$PARAM2$=$VALUE2$&#10;&#10;###" description="POST application/x-www-form-urlencoded" toReformat="true" toShortenFQNames="false">
     <variable name="HOST" expression="" defaultValue="&quot;localhost:80&quot;" alwaysStopAt="true" />
     <variable name="PATH" expression="" defaultValue="&quot;api/item&quot;" alwaysStopAt="true" />
