@@ -3,6 +3,5 @@
     <variable name="directiveName" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="injectables" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="directiveAttrs" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
 </templateSet>
