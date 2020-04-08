@@ -7,6 +7,11 @@
     <option name="SECONDARY_FONT_FAMILY" value="Source Code Pro" />
   </component>
   <component name="EditorSettings">
+    <option name="languageBreadcrumbsMap">
+      <map>
+        <entry key="TypeScript" value="true" />
+      </map>
+    </option>
     <option name="USE_SOFT_WRAPS" value="MAIN_EDITOR:PREVIEW" />
     <option name="SOFT_WRAP_FILE_MASKS" value="*" />
     <option name="STRIP_TRAILING_SPACES" value="Whole" />
