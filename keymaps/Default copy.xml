@@ -20,6 +20,9 @@
     <keyboard-shortcut first-keystroke="meta j" />
   </action>
   <action id="EditorSplitLine" />
+  <action id="EditorUp">
+    <keyboard-shortcut first-keystroke="up" />
+  </action>
   <action id="FileChooser.TogglePathShowing" />
   <action id="Generate">
     <keyboard-shortcut first-keystroke="ctrl enter" />
@@ -48,7 +51,9 @@
   <action id="OptimizeImports">
     <keyboard-shortcut first-keystroke="shift meta l" />
   </action>
-  <action id="ParameterInfo" />
+  <action id="ParameterInfo">
+    <keyboard-shortcut first-keystroke="ctrl p" />
+  </action>
   <action id="QuickImplementations">
     <keyboard-shortcut first-keystroke="alt space" />
   </action>
@@ -64,6 +69,7 @@
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="alt j" />
   </action>
+  <action id="ServiceView.GroupByServiceGroups" />
   <action id="ShowSettings" />
   <action id="TodoViewGroupByShowPackages" />
   <action id="Vcs.Log.FocusTextFilter" />

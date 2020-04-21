@@ -7,6 +7,7 @@
   <component name="EditorSettings">
     <option name="languageBreadcrumbsMap">
       <map>
+        <entry key="HTML" value="true" />
         <entry key="TypeScript" value="true" />
       </map>
     </option>
