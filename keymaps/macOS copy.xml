@@ -1,4 +1,7 @@
 <keymap version="1" name="macOS copy" parent="Mac OS X 10.5+">
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="shift meta k" />
+  </action>
   <action id="FileChooser.TogglePathShowing" />
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="meta p" />
@@ -33,5 +36,6 @@
     <keyboard-shortcut first-keystroke="meta l" />
   </action>
   <action id="Vcs.Log.FocusTextFilter" />
+  <action id="Vcs.Push" />
   <action id="Vcs.UpdateProject" />
 </keymap>
