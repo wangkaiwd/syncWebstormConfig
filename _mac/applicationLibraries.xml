@@ -4,13 +4,5 @@
       <CLASSES />
       <SOURCES />
     </library>
-    <library name="@types/jest" type="javaScript">
-      <CLASSES />
-      <SOURCES />
-    </library>
-    <library name="@types/mongoose" type="javaScript">
-      <CLASSES />
-      <SOURCES />
-    </library>
   </component>
 </application>
