@@ -6,6 +6,9 @@
     <keyboard-shortcut first-keystroke="meta j" />
   </action>
   <action id="FileChooser.TogglePathShowing" />
+  <action id="Git.Pull">
+    <keyboard-shortcut first-keystroke="meta y" />
+  </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="meta p" />
   </action>
@@ -32,6 +35,9 @@
   <action id="ParameterInfo" />
   <action id="PrevSplitter">
     <keyboard-shortcut first-keystroke="ctrl open_bracket" />
+  </action>
+  <action id="QuickImplementations">
+    <keyboard-shortcut first-keystroke="alt space" />
   </action>
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="meta t" />
