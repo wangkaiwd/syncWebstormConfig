@@ -3,15 +3,7 @@
     <option name="visitedUrls">
       <list>
         <UrlAndUserName>
-          <option name="url" value="http://gitee.com" />
-          <option name="userName" value="wangkaiwd" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://git.citydo.com.cn" />
-          <option name="userName" value="wangkai" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="git@github.com:wangkaiwd/umi-demo.git" />
+          <option name="url" value="git@github.com:wangkaiwd/axios-source-study.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
       </list>
