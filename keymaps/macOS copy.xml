@@ -2,6 +2,9 @@
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="shift meta k" />
   </action>
+  <action id="EditorJoinLines">
+    <keyboard-shortcut first-keystroke="meta j" />
+  </action>
   <action id="FileChooser.TogglePathShowing" />
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="meta p" />
@@ -16,6 +19,7 @@
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="shift meta p" />
   </action>
+  <action id="InsertLiveTemplate" />
   <action id="Javascript.Linters.EsLint.Fix">
     <keyboard-shortcut first-keystroke="meta semicolon" />
   </action>
