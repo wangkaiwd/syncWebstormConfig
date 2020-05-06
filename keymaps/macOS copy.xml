@@ -77,6 +77,9 @@
   </action>
   <action id="ServiceView.GroupByServiceGroups" />
   <action id="ShowContent" />
+  <action id="ShowErrorDescription">
+    <keyboard-shortcut first-keystroke="alt e" />
+  </action>
   <action id="ShowPopupMenu">
     <keyboard-shortcut first-keystroke="meta m" />
   </action>
