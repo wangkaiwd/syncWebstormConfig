@@ -1,6 +1,10 @@
 <keymap version="1" name="macOS copy" parent="Mac OS X 10.5+">
   <action id="ChangesView.GroupBy.Directory" />
   <action id="CheckinProject" />
+  <action id="CollapseExpandableComponent">
+    <keyboard-shortcut first-keystroke="meta subtract" />
+    <keyboard-shortcut first-keystroke="meta minus" />
+  </action>
   <action id="Console.Execute.Multiline" />
   <action id="Diff.NextChange">
     <keyboard-shortcut first-keystroke="shift meta close_bracket" />
@@ -27,11 +31,16 @@
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
   <action id="EditorSplitLine" />
+  <action id="EditorStartNewLine" />
   <action id="EditorStartNewLineBefore">
-    <keyboard-shortcut first-keystroke="shift meta enter" />
+    <keyboard-shortcut first-keystroke="shift enter" />
   </action>
   <action id="EditorUp">
     <keyboard-shortcut first-keystroke="up" />
+  </action>
+  <action id="ExpandExpandableComponent">
+    <keyboard-shortcut first-keystroke="meta add" />
+    <keyboard-shortcut first-keystroke="meta equals" />
   </action>
   <action id="FileChooser.TogglePathShowing" />
   <action id="Git.Pull">
@@ -63,6 +72,7 @@
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="shift meta close_bracket" />
   </action>
+  <action id="OpenElementInNewWindow" />
   <action id="OptimizeImports">
     <keyboard-shortcut first-keystroke="shift meta l" />
   </action>
