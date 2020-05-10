@@ -31,7 +31,9 @@
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
   <action id="EditorSplitLine" />
-  <action id="EditorStartNewLine" />
+  <action id="EditorStartNewLine">
+    <keyboard-shortcut first-keystroke="shift meta enter" />
+  </action>
   <action id="EditorStartNewLineBefore">
     <keyboard-shortcut first-keystroke="shift enter" />
   </action>
