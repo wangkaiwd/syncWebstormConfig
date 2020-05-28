@@ -95,7 +95,9 @@
   </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="meta l" />
+    <keyboard-shortcut first-keystroke="meta s" />
   </action>
+  <action id="SaveAll" />
   <action id="ServiceView.GroupByServiceGroups" />
   <action id="ShowContent" />
   <action id="ShowErrorDescription">
@@ -104,6 +106,7 @@
   <action id="ShowPopupMenu">
     <keyboard-shortcut first-keystroke="meta m" />
   </action>
+  <action id="ShowReformatFileDialog" />
   <action id="TodoViewGroupByShowPackages" />
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.Push" />
