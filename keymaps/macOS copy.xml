@@ -94,7 +94,6 @@
     <keyboard-shortcut first-keystroke="meta t" />
   </action>
   <action id="ReformatCode">
-    <keyboard-shortcut first-keystroke="meta l" />
     <keyboard-shortcut first-keystroke="meta s" />
   </action>
   <action id="SaveAll" />
