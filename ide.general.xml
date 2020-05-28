@@ -3,7 +3,6 @@
     <option name="autoSaveIfInactive" value="true" />
     <option name="confirmExit" value="false" />
     <option name="inactiveTimeout" value="16" />
-    <option name="autoSaveFiles" value="false" />
     <option name="searchInBackground" value="true" />
     <option name="showTipsOnStartup" value="false" />
     <option name="useSafeWrite" value="false" />
