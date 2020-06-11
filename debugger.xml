@@ -1,11 +1,7 @@
 <application>
   <component name="XDebuggerSettings">
-    <data-views>
-      <show-values-inline>false</show-values-inline>
-    </data-views>
-    <general>
-      <evaluation-dialog-mode>CODE_FRAGMENT</evaluation-dialog-mode>
-    </general>
+    <data-views />
+    <general />
     <debuggers>
       <debugger id="javascript">
         <configuration watchReturnValues="true">
