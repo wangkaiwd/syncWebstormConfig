@@ -118,6 +118,14 @@
           <option name="groupName" value="Shell Script Hidden" />
           <option name="key" value="shell_command exists" />
         </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="JavaScript" />
+          <option name="key" value="importitems" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="JavaScript" />
+          <option name="key" value="importdefault" />
+        </TemplateKey>
       </list>
     </option>
   </component>
