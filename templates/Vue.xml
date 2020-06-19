@@ -1,8 +1,7 @@
 <templateSet group="Vue">
-  <template name="von" value="@click=&quot;$handler$($arg$, $event$)&quot;" description="Vue v-on click handler with arguments" toReformat="true" toShortenFQNames="true">
-    <variable name="handler" expression="" defaultValue="&quot;handler&quot;" alwaysStopAt="true" />
-    <variable name="arg" expression="" defaultValue="&quot;arg&quot;" alwaysStopAt="true" />
-    <variable name="event" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+  <template name="vbase" value="&lt;template&gt;&#10;  &lt;div class=&quot;$selector$&quot;&gt;&#10;    $END$&#10;  &lt;/div&gt;&#10;&lt;/template&gt;&#10;&#10;&lt;script&gt;&#10;  export default {&#10;    name:'$ComponentName$',&#10;    data() {&#10;      return {&#10;      }&#10;    },&#10;    computed: {},&#10;    methods: {},&#10;  }&#10;&lt;/script&gt;&#10;&#10;&lt;style scoped&gt;&#10;.$selector$ {&#10;  &#10;}&#10;&lt;/style&gt;" description="Vue single file component" toReformat="true" toShortenFQNames="true">
+    <variable name="selector" expression="lowercaseAndDash(ComponentName)" defaultValue="" alwaysStopAt="false" />
+    <variable name="ComponentName" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="false" />
     <context />
   </template>
 </templateSet>
