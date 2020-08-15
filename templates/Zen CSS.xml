@@ -2,12 +2,4 @@
   <template name="b" value="bottom: $END$;" description="bottom:...;" toReformat="true" toShortenFQNames="true">
     <context />
   </template>
-  <template name="bg" value="background:#$VAR0$;" description="background:...;" toReformat="true" toShortenFQNames="true">
-    <variable name="VAR0" expression="" defaultValue="&quot;000&quot;" alwaysStopAt="true" />
-    <context />
-  </template>
-  <template name="bgc" value="background-color:#$VAR0$;" description="background-color:#fff;" toReformat="true" toShortenFQNames="true">
-    <variable name="VAR0" expression="" defaultValue="&quot;fff&quot;" alwaysStopAt="true" />
-    <context />
-  </template>
 </templateSet>
