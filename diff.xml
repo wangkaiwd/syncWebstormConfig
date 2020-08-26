@@ -21,6 +21,11 @@
     </option>
   </component>
   <component name="TextDiffSettings">
+    <option name="PLACES_MAP">
+      <entry key="CommitDialog">
+        <PlaceSettings />
+      </entry>
+    </option>
     <option name="SHARED_SETTINGS">
       <SharedSettings>
         <option name="MERGE_AUTO_APPLY_NON_CONFLICTED_CHANGES" value="true" />
