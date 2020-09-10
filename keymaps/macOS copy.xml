@@ -70,6 +70,9 @@
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
   <action id="FileChooser.TogglePathShowing" />
+  <action id="FindWordAtCaret">
+    <keyboard-shortcut first-keystroke="alt equals" />
+  </action>
   <action id="Git.Pull">
     <keyboard-shortcut first-keystroke="meta y" />
   </action>
