@@ -1,10 +1,18 @@
 <keymap version="1" name="macOS copy" parent="Mac OS X 10.5+">
+  <action id="$Delete">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
   <action id="AceAction">
     <keyboard-shortcut first-keystroke="ctrl j" />
   </action>
   <action id="AceLineAction">
     <keyboard-shortcut first-keystroke="shift ctrl semicolon" />
     <keyboard-shortcut first-keystroke="ctrl l" />
+  </action>
+  <action id="Arrangement.Rule.Remove">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
   </action>
   <action id="ChangesView.GroupBy.Directory" />
   <action id="CheckinProject" />
@@ -32,6 +40,12 @@
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="shift meta k" />
   </action>
+  <action id="EditorDeleteToLineEnd">
+    <keyboard-shortcut first-keystroke="shift meta back_space" />
+  </action>
+  <action id="EditorDeleteToLineStart">
+    <keyboard-shortcut first-keystroke="meta back_space" />
+  </action>
   <action id="EditorJoinLines">
     <keyboard-shortcut first-keystroke="meta j" />
   </action>
@@ -51,7 +65,14 @@
     <keyboard-shortcut first-keystroke="meta add" />
     <keyboard-shortcut first-keystroke="meta equals" />
   </action>
+  <action id="ExternalSystem.DetachProject">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
   <action id="FileChooser.TogglePathShowing" />
+  <action id="FindWordAtCaret">
+    <keyboard-shortcut first-keystroke="alt equals" />
+  </action>
   <action id="Git.Pull">
     <keyboard-shortcut first-keystroke="meta y" />
   </action>
@@ -72,6 +93,7 @@
   <action id="Javascript.Linters.EsLint.Fix">
     <keyboard-shortcut first-keystroke="meta semicolon" />
   </action>
+  <action id="JumpToLastChange" />
   <action id="MethodDown" />
   <action id="MethodUp" />
   <action id="MinimizeCurrentWindow" />
@@ -118,8 +140,16 @@
   </action>
   <action id="ShowReformatFileDialog" />
   <action id="TodoViewGroupByShowPackages" />
+  <action id="UsageView.Exclude">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.Push" />
   <action id="Vcs.UpdateProject" />
   <action id="ViewSource" />
+  <action id="XDebugger.RemoveWatch">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
 </keymap>
