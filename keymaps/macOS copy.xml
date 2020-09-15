@@ -130,6 +130,10 @@
     <keyboard-shortcut first-keystroke="meta s" />
   </action>
   <action id="SaveAll" />
+  <action id="Scratch.OpenDefaultScratch" />
+  <action id="Scratch.OpenScratchList">
+    <keyboard-shortcut first-keystroke="alt s" />
+  </action>
   <action id="ServiceView.GroupByServiceGroups" />
   <action id="ShowContent" />
   <action id="ShowErrorDescription">
