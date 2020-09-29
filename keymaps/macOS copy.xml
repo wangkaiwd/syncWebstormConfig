@@ -77,12 +77,8 @@
     <keyboard-shortcut first-keystroke="meta p" />
   </action>
   <action id="GotoLine" />
-  <action id="GotoNextError">
-    <keyboard-shortcut first-keystroke="alt close_bracket" />
-  </action>
-  <action id="GotoPreviousError">
-    <keyboard-shortcut first-keystroke="alt open_bracket" />
-  </action>
+  <action id="GotoNextError" />
+  <action id="GotoPreviousError" />
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="shift meta p" />
   </action>
@@ -90,7 +86,14 @@
   <action id="Javascript.Linters.EsLint.Fix">
     <keyboard-shortcut first-keystroke="meta semicolon" />
   </action>
-  <action id="JumpToLastChange" />
+  <action id="JumpToLastChange">
+    <keyboard-shortcut first-keystroke="alt open_bracket" />
+    <keyboard-shortcut first-keystroke="ctrl open_bracket" />
+  </action>
+  <action id="JumpToNextChange">
+    <keyboard-shortcut first-keystroke="alt close_bracket" />
+    <keyboard-shortcut first-keystroke="ctrl close_bracket" />
+  </action>
   <action id="MethodDown" />
   <action id="MethodUp" />
   <action id="MinimizeCurrentWindow" />
