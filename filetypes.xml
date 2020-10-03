@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="www" type="JavaScript" />
       <mapping pattern="bin/www" type="JavaScript" />
+      <mapping pattern=".yarnignore" type="PLAIN_TEXT" />
       <mapping pattern=".env.analysis" type="PLAIN_TEXT" />
       <mapping ext="lexx" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
