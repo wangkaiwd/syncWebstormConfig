@@ -41,9 +41,6 @@
     <keyboard-shortcut first-keystroke="shift meta k" />
   </action>
   <action id="EditorDeleteToLineEnd">
-    <keyboard-shortcut first-keystroke="shift meta back_space" />
-  </action>
-  <action id="EditorDeleteToLineStart">
     <keyboard-shortcut first-keystroke="meta back_space" />
   </action>
   <action id="EditorJoinLines">
