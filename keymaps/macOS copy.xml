@@ -41,9 +41,6 @@
     <keyboard-shortcut first-keystroke="shift meta k" />
   </action>
   <action id="EditorDeleteToLineEnd">
-    <keyboard-shortcut first-keystroke="shift meta back_space" />
-  </action>
-  <action id="EditorDeleteToLineStart">
     <keyboard-shortcut first-keystroke="meta back_space" />
   </action>
   <action id="EditorJoinLines">
@@ -52,11 +49,8 @@
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
   <action id="EditorSplitLine" />
-  <action id="EditorStartNewLine">
-    <keyboard-shortcut first-keystroke="shift meta enter" />
-  </action>
   <action id="EditorStartNewLineBefore">
-    <keyboard-shortcut first-keystroke="shift enter" />
+    <keyboard-shortcut first-keystroke="shift meta enter" />
   </action>
   <action id="EditorUp">
     <keyboard-shortcut first-keystroke="up" />
@@ -91,9 +85,11 @@
   </action>
   <action id="JumpToLastChange">
     <keyboard-shortcut first-keystroke="alt open_bracket" />
+    <keyboard-shortcut first-keystroke="ctrl open_bracket" />
   </action>
   <action id="JumpToNextChange">
     <keyboard-shortcut first-keystroke="alt close_bracket" />
+    <keyboard-shortcut first-keystroke="ctrl close_bracket" />
   </action>
   <action id="MethodDown" />
   <action id="MethodUp" />
@@ -131,10 +127,6 @@
     <keyboard-shortcut first-keystroke="meta s" />
   </action>
   <action id="SaveAll" />
-  <action id="Scratch.OpenDefaultScratch" />
-  <action id="Scratch.OpenScratchList">
-    <keyboard-shortcut first-keystroke="alt s" />
-  </action>
   <action id="ServiceView.GroupByServiceGroups" />
   <action id="ShowContent" />
   <action id="ShowErrorDescription">
@@ -144,6 +136,7 @@
     <keyboard-shortcut first-keystroke="meta m" />
   </action>
   <action id="ShowReformatFileDialog" />
+  <action id="Terminal.SmartCommandExecution.Debug" />
   <action id="TodoViewGroupByShowPackages" />
   <action id="UsageView.Exclude">
     <keyboard-shortcut first-keystroke="delete" />
