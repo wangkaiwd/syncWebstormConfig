@@ -1,0 +1,10 @@
+<templateSet group="user">
+  <template name="swap" value="function swap (arr, i, j) {&#10;  const temp = arr[i];&#10;  arr[i] = arr[j];&#10;  arr[j] = temp;&#10;}" description="swap value of two variables" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="ES6_TOP_LEVEL_STATEMENT" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
