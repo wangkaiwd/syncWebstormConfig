@@ -47,6 +47,12 @@
   <action id="Javascript.Linters.EsLint.Fix">
     <keyboard-shortcut first-keystroke="meta semicolon" />
   </action>
+  <action id="JumpToLastChange">
+    <keyboard-shortcut first-keystroke="ctrl open_bracket" />
+  </action>
+  <action id="JumpToNextChange">
+    <keyboard-shortcut first-keystroke="ctrl close_bracket" />
+  </action>
   <action id="MethodHierarchy" />
   <action id="NextSplitter" />
   <action id="OptimizeImports">
@@ -82,11 +88,7 @@
     <keyboard-shortcut first-keystroke="meta i" />
   </action>
   <action id="Vcs.UpdateProject" />
-  <action id="VcsShowNextChangeMarker">
-    <keyboard-shortcut first-keystroke="ctrl close_bracket" />
-  </action>
-  <action id="VcsShowPrevChangeMarker">
-    <keyboard-shortcut first-keystroke="ctrl open_bracket" />
-  </action>
+  <action id="VcsShowNextChangeMarker" />
+  <action id="VcsShowPrevChangeMarker" />
   <action id="ViewSource" />
 </keymap>
