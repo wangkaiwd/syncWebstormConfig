@@ -47,19 +47,21 @@
   <action id="Javascript.Linters.EsLint.Fix">
     <keyboard-shortcut first-keystroke="meta semicolon" />
   </action>
-  <action id="MethodHierarchy" />
-  <action id="NextSplitter">
+  <action id="JumpToLastChange">
+    <keyboard-shortcut first-keystroke="ctrl open_bracket" />
+  </action>
+  <action id="JumpToNextChange">
     <keyboard-shortcut first-keystroke="ctrl close_bracket" />
   </action>
+  <action id="MethodHierarchy" />
+  <action id="NextSplitter" />
   <action id="OptimizeImports">
     <keyboard-shortcut first-keystroke="shift meta l" />
   </action>
   <action id="ParameterInfo">
     <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
-  <action id="PrevSplitter">
-    <keyboard-shortcut first-keystroke="ctrl open_bracket" />
-  </action>
+  <action id="PrevSplitter" />
   <action id="QuickImplementations">
     <keyboard-shortcut first-keystroke="alt space" />
   </action>
@@ -67,16 +69,19 @@
     <keyboard-shortcut first-keystroke="meta t" />
   </action>
   <action id="ReformatCode">
-    <keyboard-shortcut first-keystroke="meta l" />
+    <keyboard-shortcut first-keystroke="meta s" />
   </action>
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="meta 6" />
   </action>
+  <action id="SaveAll" />
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="alt j" />
   </action>
   <action id="ServiceView.GroupByServiceGroups" />
   <action id="ShowSettings" />
+  <action id="Terminal.NextSplitter" />
+  <action id="Terminal.PrevSplitter" />
   <action id="TodoViewGroupByShowPackages" />
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.Push">
