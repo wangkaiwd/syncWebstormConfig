@@ -20,6 +20,9 @@
     <keyboard-shortcut first-keystroke="meta j" />
   </action>
   <action id="EditorSplitLine" />
+  <action id="EditorStartNewLineBefore">
+    <keyboard-shortcut first-keystroke="shift meta enter" />
+  </action>
   <action id="EditorUp">
     <keyboard-shortcut first-keystroke="up" />
   </action>
@@ -82,13 +85,12 @@
   <action id="ShowSettings" />
   <action id="Terminal.NextSplitter" />
   <action id="Terminal.PrevSplitter" />
+  <action id="Terminal.SmartCommandExecution.Debug" />
   <action id="TodoViewGroupByShowPackages" />
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="meta i" />
   </action>
   <action id="Vcs.UpdateProject" />
-  <action id="VcsShowNextChangeMarker" />
-  <action id="VcsShowPrevChangeMarker" />
   <action id="ViewSource" />
 </keymap>
