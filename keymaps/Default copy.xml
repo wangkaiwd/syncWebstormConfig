@@ -1,4 +1,8 @@
 <keymap version="1" name="Default copy" parent="Mac OS X 10.5+">
+  <action id="$Delete">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
   <action id="ActivateTODOToolWindow" />
   <action id="CallHierarchy">
     <keyboard-shortcut first-keystroke="alt h" />
@@ -9,12 +13,18 @@
   </action>
   <action id="Console.Execute.Multiline" />
   <action id="DirDiffMenu.SynchronizeDiff.All" />
+  <action id="DomElementsTreeView.DeleteElement">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
   <action id="EditorCompleteStatement">
     <keyboard-shortcut first-keystroke="meta enter" />
   </action>
   <action id="EditorDeleteLine">
-    <keyboard-shortcut first-keystroke="meta back_space" />
     <keyboard-shortcut first-keystroke="shift meta k" />
+  </action>
+  <action id="EditorDeleteToLineEnd">
+    <keyboard-shortcut first-keystroke="meta back_space" />
   </action>
   <action id="EditorJoinLines">
     <keyboard-shortcut first-keystroke="meta j" />
@@ -88,6 +98,10 @@
   <action id="Terminal.PrevSplitter" />
   <action id="Terminal.SmartCommandExecution.Debug" />
   <action id="TodoViewGroupByShowPackages" />
+  <action id="UsageView.Exclude">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="meta i" />
