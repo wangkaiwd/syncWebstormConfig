@@ -16,6 +16,9 @@
   <action id="EditorPageDown">
     <keyboard-shortcut first-keystroke="page_down" />
   </action>
+  <action id="EditorTextStart">
+    <keyboard-shortcut first-keystroke="meta home" />
+  </action>
   <action id="FileChooser.TogglePathShowing" />
   <action id="Git.Pull">
     <keyboard-shortcut first-keystroke="meta y" />
@@ -38,8 +41,17 @@
     <keyboard-shortcut first-keystroke="meta s" />
   </action>
   <action id="SaveAll" />
+  <action id="SearchEverywhere.NavigateToPrevGroup">
+    <keyboard-shortcut first-keystroke="page_up" />
+  </action>
+  <action id="ShowNavBar">
+    <keyboard-shortcut first-keystroke="meta up" />
+  </action>
   <action id="Table-scrollDownChangeSelection">
     <keyboard-shortcut first-keystroke="page_down" />
+  </action>
+  <action id="Table-selectFirstRow">
+    <keyboard-shortcut first-keystroke="meta home" />
   </action>
   <action id="UsageView.Exclude">
     <keyboard-shortcut first-keystroke="delete" />
