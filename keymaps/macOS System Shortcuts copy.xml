@@ -16,8 +16,14 @@
   <action id="EditorPageDown">
     <keyboard-shortcut first-keystroke="page_down" />
   </action>
+  <action id="EditorTextEndWithSelection">
+    <keyboard-shortcut first-keystroke="shift meta end" />
+  </action>
   <action id="EditorTextStart">
     <keyboard-shortcut first-keystroke="meta home" />
+  </action>
+  <action id="EditorTextStartWithSelection">
+    <keyboard-shortcut first-keystroke="shift meta home" />
   </action>
   <action id="FileChooser.TogglePathShowing" />
   <action id="Git.Pull">
@@ -36,6 +42,12 @@
     <keyboard-shortcut first-keystroke="page_down" />
   </action>
   <action id="MinimizeCurrentWindow" />
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="shift meta down" />
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="shift meta up" />
+  </action>
   <action id="ParameterInfo" />
   <action id="QuickImplementations" />
   <action id="Refactorings.QuickListPopupAction">
@@ -44,6 +56,8 @@
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="meta s" />
   </action>
+  <action id="ResizeToolWindowDown" />
+  <action id="ResizeToolWindowUp" />
   <action id="SaveAll" />
   <action id="SearchEverywhere.NavigateToPrevGroup">
     <keyboard-shortcut first-keystroke="page_up" />
