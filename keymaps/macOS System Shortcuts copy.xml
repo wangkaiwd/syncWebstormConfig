@@ -35,6 +35,7 @@
   <action id="List-scrollDown">
     <keyboard-shortcut first-keystroke="page_down" />
   </action>
+  <action id="MinimizeCurrentWindow" />
   <action id="ParameterInfo" />
   <action id="QuickImplementations" />
   <action id="Refactorings.QuickListPopupAction">
@@ -49,6 +50,9 @@
   </action>
   <action id="ShowNavBar">
     <keyboard-shortcut first-keystroke="meta up" />
+  </action>
+  <action id="ShowPopupMenu">
+    <keyboard-shortcut first-keystroke="meta m" />
   </action>
   <action id="Table-scrollDownChangeSelection">
     <keyboard-shortcut first-keystroke="page_down" />
