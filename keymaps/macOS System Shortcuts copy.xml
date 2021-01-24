@@ -13,6 +13,9 @@
   <action id="EditorDeleteToLineEnd">
     <keyboard-shortcut first-keystroke="meta back_space" />
   </action>
+  <action id="EditorJoinLines">
+    <keyboard-shortcut first-keystroke="meta j" />
+  </action>
   <action id="EditorPageDown">
     <keyboard-shortcut first-keystroke="page_down" />
   </action>
@@ -32,6 +35,7 @@
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="meta p" />
   </action>
+  <action id="InsertLiveTemplate" />
   <action id="JumpToLastChange">
     <keyboard-shortcut first-keystroke="ctrl open_bracket" />
   </action>
