@@ -40,6 +40,10 @@
   </action>
   <action id="ParameterInfo" />
   <action id="QuickImplementations" />
+  <action id="Refactorings.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="ctrl s" />
+    <keyboard-shortcut first-keystroke="meta t" />
+  </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="meta s" />
   </action>
@@ -67,5 +71,6 @@
   <action id="Vcs.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="ctrl v" />
   </action>
+  <action id="Vcs.UpdateProject" />
   <action id="org.intellij.plugins.markdown.ui.actions.editorLayout.CyclicSplitLayoutChangeAction" />
 </keymap>
