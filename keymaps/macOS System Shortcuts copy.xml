@@ -7,6 +7,7 @@
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
+  <action id="EditorCompleteStatement" />
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="shift meta k" />
   </action>
@@ -15,6 +16,9 @@
   </action>
   <action id="EditorPageDown">
     <keyboard-shortcut first-keystroke="page_down" />
+  </action>
+  <action id="EditorStartNewLineBefore">
+    <keyboard-shortcut first-keystroke="shift meta enter" />
   </action>
   <action id="EditorTextStart">
     <keyboard-shortcut first-keystroke="meta home" />
@@ -59,6 +63,7 @@
   <action id="Table-selectFirstRow">
     <keyboard-shortcut first-keystroke="meta home" />
   </action>
+  <action id="Terminal.SmartCommandExecution.Debug" />
   <action id="UsageView.Exclude">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
