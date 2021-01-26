@@ -1,11 +1,11 @@
-<scheme name="_@user_Atom One Dark" version="142" parent_scheme="Darcula">
+<scheme name="_@user_Atom One Dark (Material)" version="142" parent_scheme="Darcula">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2020-12-01T10:46:59</property>
+    <property name="created">2021-01-22T22:15:08</property>
     <property name="ide">WebStorm</property>
-    <property name="ideVersion">2020.3.0.0</property>
-    <property name="modified">2020-12-01T11:26:16</property>
-    <property name="originalScheme">Atom One Dark</property>
+    <property name="ideVersion">2020.3.1.0.0</property>
+    <property name="modified">2021-01-22T23:04:51</property>
+    <property name="originalScheme">Atom One Dark (Material)</property>
   </metaInfo>
   <console-font>
     <option name="EDITOR_FONT_NAME" value="Menlo" />
@@ -23,6 +23,15 @@
     <option name="CARET_ROW_COLOR" value="2c323c" />
     <option name="CONSOLE_BACKGROUND_KEY" value="282c34" />
     <option name="DELETED_LINES_COLOR" value="f07178" />
+    <option name="DIAGRAM_ANNOTATION_EDGE" value="61aeef" />
+    <option name="DIAGRAM_DEFAULT_EDGE" value="abb2bf" />
+    <option name="DIAGRAM_GENERALIZATION_EDGE" value="e5c17c" />
+    <option name="DIAGRAM_INNER_EDGE" value="c679dd" />
+    <option name="DIAGRAM_NODE_BACKGROUND" value="282c34" />
+    <option name="DIAGRAM_NODE_HEADER" value="3a3f4b" />
+    <option name="DIAGRAM_NOTE_BACKGROUND" value="282c34" />
+    <option name="DIAGRAM_NOTE_BORDER" value="abb2bf" />
+    <option name="DIAGRAM_REALIZATION_EDGE" value="d19a66" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="1e2a30" />
     <option name="DIFF_SEPARATORS_TOP_BORDER" value="1b262b" />
     <option name="DOCUMENTATION_COLOR" value="282c34" />
@@ -261,7 +270,7 @@
         <option name="FOREGROUND" value="e5c17c" />
       </value>
     </option>
-    <option name="COFFEESCRIPT.GLOBAL_VARIABLE" baseAttributes="" />
+    <option name="COFFEESCRIPT.GLOBAL_VARIABLE" baseAttributes="JS.GLOBAL_VARIABLE" />
     <option name="COFFEESCRIPT.THIS">
       <value>
         <option name="FOREGROUND" value="e06c75" />
@@ -900,23 +909,23 @@
         <option name="FOREGROUND" value="e5c17c" />
       </value>
     </option>
-    <option name="HAML_COMMENT" baseAttributes="" />
-    <option name="HAML_FILTER" baseAttributes="" />
-    <option name="HAML_FILTER_CONTENT" baseAttributes="" />
+    <option name="HAML_COMMENT" baseAttributes="DEFAULT_DOC_COMMENT" />
+    <option name="HAML_FILTER" baseAttributes="DEFAULT_LABEL" />
+    <option name="HAML_FILTER_CONTENT" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
     <option name="HAML_ID">
       <value>
         <option name="FOREGROUND" value="61afef" />
       </value>
     </option>
-    <option name="HAML_RUBY_CODE" baseAttributes="" />
-    <option name="HAML_RUBY_START" baseAttributes="" />
-    <option name="HAML_TAG" baseAttributes="" />
+    <option name="HAML_RUBY_CODE" baseAttributes="INJECTED_LANGUAGE_FRAGMENT" />
+    <option name="HAML_RUBY_START" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="HAML_TAG" baseAttributes="TEXT" />
     <option name="HAML_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="f07178" />
       </value>
     </option>
-    <option name="HAML_TEXT" baseAttributes="" />
+    <option name="HAML_TEXT" baseAttributes="TEXT" />
     <option name="HAML_XHTML">
       <value>
         <option name="FOREGROUND" value="56b6c2" />
@@ -1188,6 +1197,10 @@
         <option name="FOREGROUND" value="9373a5" />
       </value>
     </option>
+    <option name="JADE_FILE_PATH" baseAttributes="DEFAULT_STRING" />
+    <option name="JADE_FILTER_NAME" baseAttributes="DEFAULT_LABEL" />
+    <option name="JADE_JS_BLOCK" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="JADE_STATEMENTS" baseAttributes="DEFAULT_KEYWORD" />
     <option name="JAVA.THIS_SUPER">
       <value>
         <option name="FOREGROUND" value="e06c75" />
@@ -1281,7 +1294,7 @@
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
-    <option name="JSP_DIRECTIVE_NAME" baseAttributes="" />
+    <option name="JSP_DIRECTIVE_NAME" baseAttributes="DEFAULT_KEYWORD" />
     <option name="JUPYTER_SELECTED_CELL">
       <value>
         <option name="BACKGROUND" value="3a3f4b" />
@@ -3182,6 +3195,8 @@
     </option>
     <option name="RUNTIME_ERROR">
       <value>
+        <option name="EFFECT_COLOR" value="e06c75" />
+        <option name="ERROR_STRIPE_COLOR" value="e06c75" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>

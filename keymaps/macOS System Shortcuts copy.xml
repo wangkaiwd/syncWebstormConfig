@@ -13,11 +13,20 @@
   <action id="EditorDeleteToLineEnd">
     <keyboard-shortcut first-keystroke="meta back_space" />
   </action>
+  <action id="EditorJoinLines">
+    <keyboard-shortcut first-keystroke="meta j" />
+  </action>
   <action id="EditorPageDown">
     <keyboard-shortcut first-keystroke="page_down" />
   </action>
+  <action id="EditorTextEndWithSelection">
+    <keyboard-shortcut first-keystroke="shift meta end" />
+  </action>
   <action id="EditorTextStart">
     <keyboard-shortcut first-keystroke="meta home" />
+  </action>
+  <action id="EditorTextStartWithSelection">
+    <keyboard-shortcut first-keystroke="shift meta home" />
   </action>
   <action id="FileChooser.TogglePathShowing" />
   <action id="Git.Pull">
@@ -26,9 +35,7 @@
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="meta p" />
   </action>
-  <action id="Javascript.Linters.EsLint.Fix">
-    <keyboard-shortcut first-keystroke="meta semicolon" />
-  </action>
+  <action id="InsertLiveTemplate" />
   <action id="JumpToLastChange">
     <keyboard-shortcut first-keystroke="ctrl open_bracket" />
   </action>
@@ -38,15 +45,23 @@
   <action id="List-scrollDown">
     <keyboard-shortcut first-keystroke="page_down" />
   </action>
+  <action id="MinimizeCurrentWindow" />
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="shift meta down" />
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="shift meta up" />
+  </action>
   <action id="ParameterInfo" />
   <action id="QuickImplementations" />
   <action id="Refactorings.QuickListPopupAction">
-    <keyboard-shortcut first-keystroke="ctrl s" />
     <keyboard-shortcut first-keystroke="meta t" />
   </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="meta s" />
   </action>
+  <action id="ResizeToolWindowDown" />
+  <action id="ResizeToolWindowUp" />
   <action id="SaveAll" />
   <action id="SearchEverywhere.NavigateToPrevGroup">
     <keyboard-shortcut first-keystroke="page_up" />
@@ -54,8 +69,8 @@
   <action id="ShowNavBar">
     <keyboard-shortcut first-keystroke="meta up" />
   </action>
-  <action id="StepInto">
-    <keyboard-shortcut first-keystroke="f7" />
+  <action id="ShowPopupMenu">
+    <keyboard-shortcut first-keystroke="meta m" />
   </action>
   <action id="Table-scrollDownChangeSelection">
     <keyboard-shortcut first-keystroke="page_down" />
