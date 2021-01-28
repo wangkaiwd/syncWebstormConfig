@@ -36,6 +36,9 @@
     <keyboard-shortcut first-keystroke="meta p" />
   </action>
   <action id="InsertLiveTemplate" />
+  <action id="Javascript.Linters.EsLint.Fix">
+    <keyboard-shortcut first-keystroke="meta semicolon" />
+  </action>
   <action id="JumpToLastChange">
     <keyboard-shortcut first-keystroke="ctrl open_bracket" />
   </action>
@@ -71,6 +74,9 @@
   </action>
   <action id="ShowPopupMenu">
     <keyboard-shortcut first-keystroke="meta m" />
+  </action>
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="f7" />
   </action>
   <action id="Table-scrollDownChangeSelection">
     <keyboard-shortcut first-keystroke="page_down" />
