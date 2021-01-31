@@ -63,6 +63,12 @@
     <keyboard-shortcut first-keystroke="meta s" />
   </action>
   <action id="SaveAll" />
+  <action id="SearchEverywhere.NavigateToNextGroup">
+    <keyboard-shortcut first-keystroke="page_down" />
+  </action>
+  <action id="SearchEverywhere.NavigateToPrevGroup">
+    <keyboard-shortcut first-keystroke="page_up" />
+  </action>
   <action id="ServiceView.GroupByServiceGroups" />
   <action id="Table-selectPreviousRow">
     <keyboard-shortcut first-keystroke="up" />
