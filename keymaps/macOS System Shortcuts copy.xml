@@ -22,10 +22,14 @@
   <action id="EditorTextStart">
     <keyboard-shortcut first-keystroke="meta home" />
   </action>
+  <action id="Git.Pull">
+    <keyboard-shortcut first-keystroke="meta y" />
+  </action>
   <action id="InsertLiveTemplate" />
   <action id="List-scrollDown">
     <keyboard-shortcut first-keystroke="page_down" />
   </action>
+  <action id="QuickImplementations" />
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="meta t" />
   </action>
