@@ -36,6 +36,12 @@
     <keyboard-shortcut first-keystroke="meta y" />
   </action>
   <action id="InsertLiveTemplate" />
+  <action id="JumpToLastChange">
+    <keyboard-shortcut first-keystroke="ctrl open_bracket" />
+  </action>
+  <action id="JumpToNextChange">
+    <keyboard-shortcut first-keystroke="ctrl close_bracket" />
+  </action>
   <action id="List-scrollDown">
     <keyboard-shortcut first-keystroke="page_down" />
   </action>
