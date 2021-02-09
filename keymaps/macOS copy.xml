@@ -1,10 +1,14 @@
 <keymap version="1" name="macOS copy" parent="Mac OS X 10.5+">
   <action id="ChangesView.GroupBy.Directory" />
+  <action id="EditorCompleteStatement" />
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="shift meta k" />
   </action>
   <action id="EditorJoinLines">
     <keyboard-shortcut first-keystroke="meta j" />
+  </action>
+  <action id="EditorStartNewLineBefore">
+    <keyboard-shortcut first-keystroke="shift meta enter" />
   </action>
   <action id="EditorUp">
     <keyboard-shortcut first-keystroke="up" />
@@ -51,6 +55,7 @@
   <action id="Table-selectPreviousRow">
     <keyboard-shortcut first-keystroke="up" />
   </action>
+  <action id="Terminal.SmartCommandExecution.Debug" />
   <action id="TodoViewGroupByShowPackages" />
   <action id="Tree-selectPrevious">
     <keyboard-shortcut first-keystroke="up" />
