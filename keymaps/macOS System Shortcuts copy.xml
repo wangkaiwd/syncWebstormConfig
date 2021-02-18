@@ -54,6 +54,10 @@
   <action id="MoveLineUp">
     <keyboard-shortcut first-keystroke="shift meta up" />
   </action>
+  <action id="OptimizeImports">
+    <keyboard-shortcut first-keystroke="ctrl alt o" />
+    <keyboard-shortcut first-keystroke="shift meta l" />
+  </action>
   <action id="QuickImplementations" />
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="meta t" />
