@@ -3,6 +3,7 @@
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
+  <action id="ChangesView.GroupBy.Directory" />
   <action id="DomElementsTreeView.DeleteElement">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
@@ -32,6 +33,9 @@
   <action id="EditorTextStartWithSelection">
     <keyboard-shortcut first-keystroke="shift meta home" />
   </action>
+  <action id="EditorUp">
+    <keyboard-shortcut first-keystroke="up" />
+  </action>
   <action id="Git.Pull">
     <keyboard-shortcut first-keystroke="meta y" />
   </action>
@@ -48,15 +52,27 @@
   <action id="List-scrollDown">
     <keyboard-shortcut first-keystroke="page_down" />
   </action>
+  <action id="List-selectPreviousRow">
+    <keyboard-shortcut first-keystroke="up" />
+  </action>
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="shift meta down" />
   </action>
   <action id="MoveLineUp">
     <keyboard-shortcut first-keystroke="shift meta up" />
   </action>
+  <action id="NavBar-selectUp">
+    <keyboard-shortcut first-keystroke="up" />
+  </action>
   <action id="OptimizeImports">
     <keyboard-shortcut first-keystroke="ctrl alt o" />
     <keyboard-shortcut first-keystroke="shift meta l" />
+  </action>
+  <action id="ParameterInfo">
+    <keyboard-shortcut first-keystroke="ctrl p" />
+  </action>
+  <action id="PopupMenu-selectPrevious">
+    <keyboard-shortcut first-keystroke="up" />
   </action>
   <action id="QuickImplementations" />
   <action id="Refactorings.QuickListPopupAction">
@@ -71,6 +87,7 @@
   <action id="SearchEverywhere.NavigateToPrevGroup">
     <keyboard-shortcut first-keystroke="page_up" />
   </action>
+  <action id="ServiceView.GroupByServiceGroups" />
   <action id="ShowNavBar">
     <keyboard-shortcut first-keystroke="meta up" />
   </action>
@@ -83,7 +100,15 @@
   <action id="Table-selectFirstRow">
     <keyboard-shortcut first-keystroke="meta home" />
   </action>
+  <action id="Table-selectPreviousRow">
+    <keyboard-shortcut first-keystroke="up" />
+  </action>
   <action id="Terminal.SmartCommandExecution.Debug" />
+  <action id="TodoViewGroupByShowPackages" />
+  <action id="Tree-selectPrevious">
+    <keyboard-shortcut first-keystroke="up" />
+  </action>
+  <action id="UsageGrouping.Directory" />
   <action id="UsageView.Exclude">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
