@@ -4,6 +4,9 @@
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
   <action id="ChangesView.GroupBy.Directory" />
+  <action id="CommentByBlockComment">
+    <keyboard-shortcut first-keystroke="shift meta slash" />
+  </action>
   <action id="DomElementsTreeView.DeleteElement">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
