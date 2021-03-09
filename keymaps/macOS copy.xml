@@ -1,0 +1,31 @@
+<keymap version="1" name="macOS copy" parent="Mac OS X 10.5+">
+  <action id="$Delete">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
+  <action id="DomElementsTreeView.DeleteElement">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="shift meta k" />
+  </action>
+  <action id="EditorDeleteToLineEnd">
+    <keyboard-shortcut first-keystroke="meta back_space" />
+  </action>
+  <action id="FileChooser.TogglePathShowing" />
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="meta p" />
+  </action>
+  <action id="ParameterInfo" />
+  <action id="UsageView.Exclude">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
+  <action id="Vcs.Push" />
+  <action id="WelcomeScreen.RemoveSelected">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
+  <action id="org.intellij.plugins.markdown.ui.actions.editorLayout.CyclicSplitLayoutChangeAction" />
+</keymap>
