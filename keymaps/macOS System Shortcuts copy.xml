@@ -8,6 +8,9 @@
   <action id="EditorTextEndWithSelection">
     <keyboard-shortcut first-keystroke="shift meta end" />
   </action>
+  <action id="EditorTextStart">
+    <keyboard-shortcut first-keystroke="meta home" />
+  </action>
   <action id="EditorTextStartWithSelection">
     <keyboard-shortcut first-keystroke="shift meta home" />
   </action>
@@ -33,8 +36,17 @@
   <action id="ResizeToolWindowDown" />
   <action id="ResizeToolWindowUp" />
   <action id="SaveAll" />
+  <action id="SearchEverywhere.NavigateToPrevGroup">
+    <keyboard-shortcut first-keystroke="page_up" />
+  </action>
+  <action id="ShowNavBar">
+    <keyboard-shortcut first-keystroke="meta up" />
+  </action>
   <action id="Table-scrollDownChangeSelection">
     <keyboard-shortcut first-keystroke="page_down" />
+  </action>
+  <action id="Table-selectFirstRow">
+    <keyboard-shortcut first-keystroke="meta home" />
   </action>
   <action id="Vcs.Push" />
   <action id="Vcs.QuickListPopupAction">
