@@ -1,10 +1,12 @@
 <application>
   <component name="XDebuggerSettings">
-    <data-views />
+    <data-views>
+      <option name="showLibraryStackFrames" value="false" />
+    </data-views>
     <general />
     <debuggers>
       <debugger id="javascript">
-        <configuration watchReturnValues="true">
+        <configuration alwaysDoSmartStepInto="false" doNotStepIntoLibraryCode="false" watchReturnValues="true">
           <custom-object-presentation />
         </configuration>
       </debugger>
