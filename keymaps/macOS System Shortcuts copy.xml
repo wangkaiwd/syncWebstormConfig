@@ -17,6 +17,9 @@
   <action id="Git.Pull">
     <keyboard-shortcut first-keystroke="meta y" />
   </action>
+  <action id="Javascript.Linters.EsLint.Fix">
+    <keyboard-shortcut first-keystroke="meta semicolon" />
+  </action>
   <action id="List-scrollDown">
     <keyboard-shortcut first-keystroke="page_down" />
   </action>
@@ -41,6 +44,9 @@
   </action>
   <action id="ShowNavBar">
     <keyboard-shortcut first-keystroke="meta up" />
+  </action>
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="f7" />
   </action>
   <action id="Table-scrollDownChangeSelection">
     <keyboard-shortcut first-keystroke="page_down" />
