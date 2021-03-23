@@ -1,0 +1,5 @@
+<templateSet group="Zen HTML">
+  <template name="span" value="&lt;span&gt;$END$&lt;/span&gt;" description="&lt;span&gt;...&lt;/span&gt;" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
+</templateSet>

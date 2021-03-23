@@ -1,0 +1,20 @@
+<application>
+  <component name="MaterialThemeConfig">
+    <option name="compactMenus" value="true" />
+    <option name="compactStatusBar" value="true" />
+    <option name="compactTables" value="true" />
+    <option name="compactDropdowns" value="true" />
+    <option name="compactSidebar" value="true" />
+    <option name="isCompactMenus" value="true" />
+    <option name="isCompactStatusBar" value="true" />
+    <option name="isCompactTables" value="true" />
+    <option name="isWizardShown" value="true" />
+    <option name="pristineConfig" value="false" />
+    <option name="customSidebarHeight" value="20" />
+    <option name="settingsSelectedTab" value="2" />
+    <option name="accentColor" value="416a9b" />
+    <option name="selectedTheme" value="NATIVE" />
+    <option name="userId" value="3d9974e3:171d0c45336:-8000" />
+    <option name="version" value="5.5.0" />
+  </component>
+</application>
