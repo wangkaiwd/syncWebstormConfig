@@ -14,10 +14,19 @@
     <keyboard-shortcut first-keystroke="meta back_space" />
   </action>
   <action id="FileChooser.TogglePathShowing" />
+  <action id="Git.Pull">
+    <keyboard-shortcut first-keystroke="meta y" />
+  </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="meta p" />
   </action>
+  <action id="Javascript.Linters.EsLint.Fix">
+    <keyboard-shortcut first-keystroke="meta semicolon" />
+  </action>
   <action id="ParameterInfo" />
+  <action id="QuickImplementations">
+    <keyboard-shortcut first-keystroke="alt space" />
+  </action>
   <action id="UsageView.Exclude">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
