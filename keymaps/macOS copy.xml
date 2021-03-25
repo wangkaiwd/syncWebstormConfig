@@ -15,7 +15,7 @@
   </action>
   <action id="FileChooser.TogglePathShowing" />
   <action id="Forward">
-    <keyboard-shortcut first-keystroke="meta alt right" />
+    <keyboard-shortcut first-keystroke="meta close_bracket" />
     <mouse-shortcut keystroke="button5" />
   </action>
   <action id="Git.Pull">
@@ -31,7 +31,7 @@
     <keyboard-shortcut first-keystroke="ctrl open_bracket" />
   </action>
   <action id="JumpToNextChange">
-    <keyboard-shortcut first-keystroke="meta close_bracket" />
+    <keyboard-shortcut first-keystroke="ctrl close_bracket" />
   </action>
   <action id="OptimizeImports">
     <keyboard-shortcut first-keystroke="ctrl alt o" />
