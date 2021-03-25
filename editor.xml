@@ -25,8 +25,7 @@
     </option>
     <option name="USE_SOFT_WRAPS" value="MAIN_EDITOR:CONSOLE" />
     <option name="SOFT_WRAP_FILE_MASKS" value="*" />
-    <option name="STRIP_TRAILING_SPACES" value="Whole" />
-    <option name="REMOVE_TRAILING_BLANK_LINES" value="true" />
+    <option name="STRIP_TRAILING_SPACES" value="None" />
     <option name="SHOW_QUICK_DOC_ON_MOUSE_OVER_ELEMENT" value="false" />
     <option name="IS_RIGHT_MARGIN_SHOWN" value="false" />
     <option name="SHOW_BREADCRUMBS_ABOVE" value="true" />
