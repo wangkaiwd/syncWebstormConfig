@@ -13,6 +13,9 @@
   <action id="EditorDeleteToLineEnd">
     <keyboard-shortcut first-keystroke="meta back_space" />
   </action>
+  <action id="EditorJoinLines">
+    <keyboard-shortcut first-keystroke="meta j" />
+  </action>
   <action id="FileChooser.TogglePathShowing" />
   <action id="Forward">
     <keyboard-shortcut first-keystroke="meta close_bracket" />
@@ -24,6 +27,7 @@
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="meta p" />
   </action>
+  <action id="InsertLiveTemplate" />
   <action id="Javascript.Linters.EsLint.Fix">
     <keyboard-shortcut first-keystroke="meta semicolon" />
   </action>
