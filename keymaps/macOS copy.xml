@@ -31,6 +31,9 @@
   </action>
   <action id="FileChooser.GotoProject" />
   <action id="FileChooser.TogglePathShowing" />
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="meta o" />
+  </action>
   <action id="Forward">
     <keyboard-shortcut first-keystroke="meta close_bracket" />
     <mouse-shortcut keystroke="button5" />
@@ -38,10 +41,15 @@
   <action id="Git.Pull">
     <keyboard-shortcut first-keystroke="meta y" />
   </action>
+  <action id="GotoChangedFile" />
+  <action id="GotoClass" />
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="meta p" />
   </action>
   <action id="GotoLine" />
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="shift meta p" />
+  </action>
   <action id="InsertLiveTemplate" />
   <action id="Javascript.Linters.EsLint.Fix">
     <keyboard-shortcut first-keystroke="meta semicolon" />
