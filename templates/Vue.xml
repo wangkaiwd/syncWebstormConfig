@@ -4,9 +4,16 @@
     <variable name="ComponentName" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="false" />
     <context />
   </template>
-  <template name="vbase3" value="&lt;template&gt;&#10;  &lt;div class=&quot;$selector$&quot;&gt;&#10;    $END$&#10;  &lt;/div&gt;&#10;&lt;/template&gt;&#10;&#10;&lt;script&gt;&#10;  import { reactive, toRefs } from 'vue'&#10;  export default {&#10;    name:'$ComponentName$',&#10;    setup() {&#10;      const state = reactive({})&#10;      return {&#10;        ...toRefs(state)&#10;      }&#10;    },&#10;  }&#10;&lt;/script&gt;&#10;&#10;&lt;style lang=&quot;less&quot; scoped&gt;&#10;.$selector$ {&#10;  &#10;}&#10;&lt;/style&gt;" description="Vue3.0 single file component" toReformat="true" toShortenFQNames="true">
-    <variable name="selector" expression="lowercaseAndDash(ComponentName)" defaultValue="" alwaysStopAt="true" />
-    <variable name="ComponentName" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="true" />
+  <template name="vbase3" value="&lt;template&gt;&#10;  &lt;div class=&quot;$selector$&quot;&gt;&#10;    $END$&#10;  &lt;/div&gt;&#10;&lt;/template&gt;&#10;&#10;&lt;script&gt;&#10;  import { reactive, toRefs } from 'vue'&#10;  export default {&#10;    name:'$ComponentName$',&#10;    setup() {&#10;      const state = reactive({})&#10;      return {&#10;        ...toRefs(state)&#10;      }&#10;    },&#10;  }&#10;&lt;/script&gt;&#10;&#10;&lt;style lang=&quot;less&quot; scoped&gt;&#10;.$selector$ {&#10;  &#10;}&#10;&lt;/style&gt;" description="Vue3 single file component" toReformat="true" toShortenFQNames="true">
+    <variable name="selector" expression="lowercaseAndDash(ComponentName)" defaultValue="" alwaysStopAt="false" />
+    <variable name="ComponentName" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="VUE_TOP_LEVEL" value="true" />
+    </context>
+  </template>
+  <template name="vbase3ts" value="&lt;template&gt;&#10;  &lt;div class=&quot;$selector$&quot;&gt;&#10;    $END$&#10;  &lt;/div&gt;&#10;&lt;/template&gt;&#10;&#10;&lt;script lang=&quot;ts&quot;&gt;&#10;  import { defineComponent, reactive, toRefs } from 'vue'&#10;  export default defineComponent({&#10;    name:'$ComponentName$',&#10;    setup() {&#10;      const state = reactive({})&#10;      return {&#10;        ...toRefs(state)&#10;      }&#10;    },&#10;  })&#10;&lt;/script&gt;&#10;&#10;&lt;style lang=&quot;less&quot; scoped&gt;&#10;.$selector$ {&#10;  &#10;}&#10;&lt;/style&gt;" description="Vue3 single file component with typescript" toReformat="true" toShortenFQNames="true">
+    <variable name="selector" expression="lowercaseAndDash(ComponentName)" defaultValue="" alwaysStopAt="false" />
+    <variable name="ComponentName" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="VUE_TOP_LEVEL" value="true" />
     </context>
