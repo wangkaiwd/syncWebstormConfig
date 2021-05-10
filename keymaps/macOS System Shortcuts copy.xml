@@ -63,6 +63,7 @@
     <keyboard-shortcut first-keystroke="meta p" />
   </action>
   <action id="GotoLine" />
+  <action id="GotoSuperMethod" />
   <action id="InsertLiveTemplate" />
   <action id="Javascript.Linters.EsLint.Fix">
     <keyboard-shortcut first-keystroke="meta semicolon" />
@@ -88,6 +89,9 @@
   </action>
   <action id="ParameterInfo" />
   <action id="QuickImplementations" />
+  <action id="QuickList.format code">
+    <keyboard-shortcut first-keystroke="meta u" />
+  </action>
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="meta t" />
   </action>
