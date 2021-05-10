@@ -4,12 +4,13 @@
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
   <action id="CodeCompletion">
-    <keyboard-shortcut first-keystroke="alt enter" />
+    <keyboard-shortcut first-keystroke="meta period" />
   </action>
   <action id="CollapseExpandableComponent">
     <keyboard-shortcut first-keystroke="meta subtract" />
     <keyboard-shortcut first-keystroke="meta minus" />
   </action>
+  <action id="CollapseSelection" />
   <action id="Console.Execute.Multiline" />
   <action id="DirDiffMenu.SynchronizeDiff.All" />
   <action id="DomElementsTreeView.DeleteElement">
@@ -86,7 +87,6 @@
     <mouse-shortcut keystroke="alt button1 doubleClick" />
   </action>
   <action id="ParameterInfo" />
-  <action id="ProblemsView.QuickFixes" />
   <action id="QuickImplementations" />
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="meta t" />
@@ -100,8 +100,6 @@
   <action id="SearchEverywhere.NavigateToPrevGroup">
     <keyboard-shortcut first-keystroke="page_up" />
   </action>
-  <action id="SetShortcutAction" />
-  <action id="ShowIntentionActions" />
   <action id="ShowNavBar">
     <keyboard-shortcut first-keystroke="meta up" />
   </action>
