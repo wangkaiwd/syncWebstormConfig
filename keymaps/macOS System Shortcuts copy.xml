@@ -12,6 +12,9 @@
     <keyboard-shortcut first-keystroke="meta minus" />
   </action>
   <action id="CollapseSelection" />
+  <action id="CommentByBlockComment">
+    <keyboard-shortcut first-keystroke="shift meta slash" />
+  </action>
   <action id="Console.Execute.Multiline" />
   <action id="DirDiffMenu.SynchronizeDiff.All" />
   <action id="DomElementsTreeView.DeleteElement">
