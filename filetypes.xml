@@ -4,6 +4,7 @@
       <mapping pattern="www" type="JavaScript" />
       <mapping pattern="bin/www" type="JavaScript" />
       <mapping pattern=".yarnignore" type="PLAIN_TEXT" />
+      <mapping pattern=".prettierignore" type="PLAIN_TEXT" />
       <mapping pattern=".env.analysis" type="PLAIN_TEXT" />
       <mapping ext="lexx" type="PLAIN_TEXT" />
       <mapping ext="0" type="PLAIN_TEXT" />
