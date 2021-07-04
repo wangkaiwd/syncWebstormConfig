@@ -6,6 +6,10 @@
           <option name="url" value="git@github.com:wangkaiwd/axios-source-study.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://gitlab.vdian.net" />
+          <option name="userName" value="wangkai03" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/WebstormProjects" />
