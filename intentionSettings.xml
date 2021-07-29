@@ -1,0 +1,26 @@
+<application>
+  <component name="IntentionManagerSettings">
+    <ignoreAction name="Flow JS/Specify variable type explicitly" />
+    <ignoreAction name="HTTP Client/Convert to cURL and copy to clipboard" />
+    <ignoreAction name="HTTP Client/Generate request in HTTP Client" />
+    <ignoreAction name="HTTP Client/Move HTTP Requests" />
+    <ignoreAction name="HTTP Client/Set value for secured value" />
+    <ignoreAction name="XML/Add 'xsi:schemaLocation' attribute" />
+    <ignoreAction name="XML/Choose color" />
+    <ignoreAction name="XML/Collapse empty tag" />
+    <ignoreAction name="XML/Convert CDATA to text" />
+    <ignoreAction name="XML/Convert attribute to child tag" />
+    <ignoreAction name="XML/Convert tag to attribute" />
+    <ignoreAction name="XML/Convert text to CDATA" />
+    <ignoreAction name="XML/Expand empty tag" />
+    <ignoreAction name="XML/Fetch external resource" />
+    <ignoreAction name="XML/Insert namespace prefix" />
+    <ignoreAction name="XML/Manually set up external resource" />
+    <ignoreAction name="XML/Merge tags" />
+    <ignoreAction name="XML/Rearrange tag attributes" />
+    <ignoreAction name="XML/Remove attribute" />
+    <ignoreAction name="XML/Remove tag (preserves children)" />
+    <ignoreAction name="XML/Reset to default namespace" />
+    <ignoreAction name="XML/Split current tag" />
+  </component>
+</application>
