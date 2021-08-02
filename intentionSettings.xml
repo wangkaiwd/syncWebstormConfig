@@ -1,0 +1,31 @@
+<application>
+  <component name="IntentionManagerSettings">
+    <ignoreAction name="Flow JS/Specify variable type explicitly" />
+    <ignoreAction name="HTTP Client/Convert to cURL and copy to clipboard" />
+    <ignoreAction name="HTTP Client/Generate request in HTTP Client" />
+    <ignoreAction name="HTTP Client/Move HTTP Requests" />
+    <ignoreAction name="HTTP Client/Set value for secured value" />
+    <ignoreAction name="LightEdit mode/Open file in project..." />
+    <ignoreAction name="XML/Add xsi:schemaLocation for external resource" />
+    <ignoreAction name="XML/Choose Color" />
+    <ignoreAction name="XML/Collapse empty tag" />
+    <ignoreAction name="XML/Convert CDATA to text" />
+    <ignoreAction name="XML/Convert attribute to child element" />
+    <ignoreAction name="XML/Convert tag to attribute" />
+    <ignoreAction name="XML/Convert text to CData" />
+    <ignoreAction name="XML/Expand empty tag" />
+    <ignoreAction name="XML/Fetch external resource" />
+    <ignoreAction name="XML/Insert namespace prefix" />
+    <ignoreAction name="XML/Manually set up external resource" />
+    <ignoreAction name="XML/Merge Tags" />
+    <ignoreAction name="XML/Rearrange tag attributes" />
+    <ignoreAction name="XML/Remove attribute" />
+    <ignoreAction name="XML/Remove tag" />
+    <ignoreAction name="XML/Reset to default namespace" />
+    <ignoreAction name="XML/Split current tag" />
+    <ignoreAction name="XSLT/Add optional Argument(s)" />
+    <ignoreAction name="XSLT/Convert 'xsl:if' to 'xsl:choose'" />
+    <ignoreAction name="XSLT/Inline xsl:attribute" />
+    <ignoreAction name="XSLT/Replace with 'xsl:attribute'" />
+  </component>
+</application>
