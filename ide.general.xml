@@ -12,6 +12,7 @@
     <entry key="js.debugger.webconsole" value="false" />
     <entry key="ide.tree.ui.experimental" value="false" />
     <entry key="ide.experimental.ui.toolwindow.stripes" value="true" />
+    <entry key="ide.new.stripes.ui" value="true" />
   </component>
   <component name="StatusBar">
     <option name="widgets">
