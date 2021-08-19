@@ -2,6 +2,10 @@
   <template name="b" value="bottom: $END$;" description="bottom:...;" toReformat="true" toShortenFQNames="true">
     <context />
   </template>
+  <template name="@i" value="@import url($VAR0$);" description="@import url(...);" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
   <template name="anim" value="animation: $END$;" description="animation:...;" toReformat="true" toShortenFQNames="true">
     <context />
   </template>
