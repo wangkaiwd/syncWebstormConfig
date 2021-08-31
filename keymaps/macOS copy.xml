@@ -12,6 +12,9 @@
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="meta l" />
   </action>
+  <action id="ReformatWithPrettierAction">
+    <keyboard-shortcut first-keystroke="meta semicolon" />
+  </action>
   <action id="Terminal.ClearBuffer">
     <keyboard-shortcut first-keystroke="meta k" />
   </action>
