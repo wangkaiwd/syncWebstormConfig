@@ -2,7 +2,11 @@
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="shift meta k" />
   </action>
+  <action id="EditorJoinLines">
+    <keyboard-shortcut first-keystroke="meta j" />
+  </action>
   <action id="GotoLine" />
+  <action id="InsertLiveTemplate" />
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="meta t" />
   </action>
