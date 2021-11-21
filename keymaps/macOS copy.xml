@@ -16,7 +16,9 @@
   </action>
   <action id="InsertLiveTemplate" />
   <action id="MinimizeCurrentWindow" />
-  <action id="ParameterInfo" />
+  <action id="ParameterInfo">
+    <keyboard-shortcut first-keystroke="alt p" />
+  </action>
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="meta t" />
   </action>
