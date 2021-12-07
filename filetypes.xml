@@ -5,8 +5,8 @@
       <mapping pattern="bin/www" type="JavaScript" />
       <mapping pattern=".env.analysis" type="PLAIN_TEXT" />
       <mapping pattern=".yarnignore" type="PLAIN_TEXT" />
-      <mapping ext="0" type="PLAIN_TEXT" />
       <mapping ext="lexx" type="PLAIN_TEXT" />
+      <mapping ext="0" type="PLAIN_TEXT" />
       <mapping pattern="index" type="Vue.js" />
       <mapping pattern="logQuery/index" type="Vue.js" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
