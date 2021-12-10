@@ -7,6 +7,11 @@
       <mapping pattern=".yarnignore" type="PLAIN_TEXT" />
       <mapping ext="lexx" type="PLAIN_TEXT" />
       <mapping ext="0" type="PLAIN_TEXT" />
+      <mapping ext=".tabnine.model" type="Tabnine project model file" />
+      <mapping ext=".tabnine" type="Tabnine project model file" />
+      <mapping ext=".model" type="Tabnine project model file" />
+      <mapping ext="tabnine" type="Tabnine project model file" />
+      <mapping ext="model" type="Tabnine project model file" />
       <mapping pattern="index" type="Vue.js" />
       <mapping pattern="logQuery/index" type="Vue.js" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
