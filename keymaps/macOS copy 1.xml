@@ -26,6 +26,9 @@
   <action id="EditorIndentLineOrSelection">
     <keyboard-shortcut first-keystroke="meta equals" />
   </action>
+  <action id="EditorJoinLines">
+    <keyboard-shortcut first-keystroke="meta j" />
+  </action>
   <action id="EditorScrollToCenter" />
   <action id="EditorUnindentSelection">
     <keyboard-shortcut first-keystroke="meta minus" />
@@ -50,6 +53,7 @@
   <action id="ExternalSystem.ExpandAll">
     <keyboard-shortcut first-keystroke="meta add" />
   </action>
+  <action id="FileChooser.TogglePathShowing" />
   <action id="FindWordAtCaret">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta o" />
   </action>
@@ -58,7 +62,9 @@
   </action>
   <action id="Git.Commit.Stage" />
   <action id="GotoClass" />
-  <action id="GotoFile" />
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="meta p" />
+  </action>
   <action id="GotoLine" />
   <action id="Images.Editor.ZoomIn">
     <keyboard-shortcut first-keystroke="meta add" />
@@ -66,6 +72,7 @@
   <action id="Images.Editor.ZoomOut">
     <keyboard-shortcut first-keystroke="meta subtract" />
   </action>
+  <action id="InsertLiveTemplate" />
   <action id="MinimizeCurrentWindow" />
   <action id="NewDir">
     <keyboard-shortcut first-keystroke="shift meta n" />
@@ -75,6 +82,7 @@
     <keyboard-shortcut first-keystroke="alt tab" />
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
+  <action id="ParameterInfo" />
   <action id="PopupMenu-selectNext">
     <keyboard-shortcut first-keystroke="down" />
   </action>
