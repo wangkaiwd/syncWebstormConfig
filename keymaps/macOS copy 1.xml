@@ -95,6 +95,9 @@
     <keyboard-shortcut first-keystroke="meta alt l" />
     <keyboard-shortcut first-keystroke="meta l" />
   </action>
+  <action id="ReformatWithPrettierAction">
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta p" />
+  </action>
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="meta o" />
   </action>
