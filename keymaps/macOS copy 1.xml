@@ -4,18 +4,34 @@
   </action>
   <action id="ChangesView.ToggleCommitUi" />
   <action id="CheckinProject" />
+  <action id="CollapseAll">
+    <keyboard-shortcut first-keystroke="meta subtract" />
+  </action>
+  <action id="CollapseAllRegions">
+    <keyboard-shortcut first-keystroke="shift meta subtract" />
+  </action>
+  <action id="CollapseExpandableComponent">
+    <keyboard-shortcut first-keystroke="shift enter" />
+    <keyboard-shortcut first-keystroke="meta subtract" />
+  </action>
+  <action id="CollapseRegion">
+    <keyboard-shortcut first-keystroke="shift meta minus" />
+  </action>
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
   </action>
   <action id="EditorIndentLineOrSelection">
-    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta close_bracket" />
+    <keyboard-shortcut first-keystroke="meta equals" />
   </action>
   <action id="EditorScrollToCenter" />
   <action id="EditorUnindentSelection">
-    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta open_bracket" />
+    <keyboard-shortcut first-keystroke="meta minus" />
   </action>
   <action id="ExpandAll">
     <keyboard-shortcut first-keystroke="meta add" />
+  </action>
+  <action id="ExpandAllRegions">
+    <keyboard-shortcut first-keystroke="shift meta add" />
   </action>
   <action id="ExpandExpandableComponent">
     <keyboard-shortcut first-keystroke="shift enter" />
@@ -23,6 +39,10 @@
   </action>
   <action id="ExpandRegion">
     <keyboard-shortcut first-keystroke="meta add" />
+    <keyboard-shortcut first-keystroke="shift meta equals" />
+  </action>
+  <action id="ExternalSystem.CollapseAll">
+    <keyboard-shortcut first-keystroke="meta subtract" />
   </action>
   <action id="ExternalSystem.ExpandAll">
     <keyboard-shortcut first-keystroke="meta add" />
@@ -33,6 +53,9 @@
   <action id="Git.Commit.Stage" />
   <action id="Images.Editor.ZoomIn">
     <keyboard-shortcut first-keystroke="meta add" />
+  </action>
+  <action id="Images.Editor.ZoomOut">
+    <keyboard-shortcut first-keystroke="meta subtract" />
   </action>
   <action id="NewDir">
     <keyboard-shortcut first-keystroke="shift meta n" />
