@@ -2,13 +2,42 @@
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="meta t" />
   </action>
+  <action id="ChangesView.ToggleCommitUi" />
+  <action id="CheckinProject" />
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
   </action>
+  <action id="EditorIndentLineOrSelection">
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta close_bracket" />
+  </action>
   <action id="EditorScrollToCenter" />
+  <action id="EditorUnindentSelection">
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta open_bracket" />
+  </action>
+  <action id="ExpandAll">
+    <keyboard-shortcut first-keystroke="meta add" />
+  </action>
+  <action id="ExpandExpandableComponent">
+    <keyboard-shortcut first-keystroke="shift enter" />
+    <keyboard-shortcut first-keystroke="meta add" />
+  </action>
+  <action id="ExpandRegion">
+    <keyboard-shortcut first-keystroke="meta add" />
+  </action>
+  <action id="ExternalSystem.ExpandAll">
+    <keyboard-shortcut first-keystroke="meta add" />
+  </action>
   <action id="FocusEditor">
     <keyboard-shortcut first-keystroke="meta e" />
   </action>
+  <action id="Git.Commit.Stage" />
+  <action id="Images.Editor.ZoomIn">
+    <keyboard-shortcut first-keystroke="meta add" />
+  </action>
+  <action id="NewDir">
+    <keyboard-shortcut first-keystroke="shift meta n" />
+  </action>
+  <action id="NewScratchFile" />
   <action id="NextSplitter">
     <keyboard-shortcut first-keystroke="alt tab" />
     <keyboard-shortcut first-keystroke="ctrl h" />
@@ -20,19 +49,32 @@
     <keyboard-shortcut first-keystroke="shift alt tab" />
     <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
-  <action id="RecentFiles" />
-  <action id="SplitVertically">
-    <keyboard-shortcut first-keystroke="ctrl n" />
+  <action id="RecentFiles">
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta e" />
+  </action>
+  <action id="StretchSplitToLeft">
+    <keyboard-shortcut first-keystroke="ctrl minus" />
+  </action>
+  <action id="StretchSplitToRight">
+    <keyboard-shortcut first-keystroke="ctrl equals" />
   </action>
   <action id="SwitcherIterateItems" />
   <action id="SwitcherRecentEditedChangedToggleCheckBox" />
+  <action id="Terminal.ClearBuffer">
+    <keyboard-shortcut first-keystroke="meta l" />
+  </action>
   <action id="Terminal.NextSplitter">
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
   <action id="Terminal.PrevSplitter">
     <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
-  <action id="Terminal.SwitchFocusToEditor" />
+  <action id="Terminal.SwitchFocusToEditor">
+    <keyboard-shortcut first-keystroke="meta e" />
+  </action>
+  <action id="TerminalSplitActionBase$Vertical">
+    <keyboard-shortcut first-keystroke="ctrl n" />
+  </action>
   <action id="Tree-selectNext">
     <keyboard-shortcut first-keystroke="down" />
   </action>
@@ -45,6 +87,10 @@
     <keyboard-shortcut first-keystroke="shift ctrl w" />
   </action>
   <action id="UsageFiltering.WriteAccess" />
+  <action id="Vcs.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="ctrl v" />
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta g" />
+  </action>
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
