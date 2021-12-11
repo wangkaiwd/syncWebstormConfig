@@ -1,4 +1,4 @@
-<keymap version="1" name="macOS copy 1" parent="Mac OS X 10.5+">
+<keymap version="1" name="macOS shorcuts" parent="Mac OS X 10.5+">
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="meta t" />
   </action>

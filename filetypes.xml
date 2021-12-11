@@ -5,13 +5,8 @@
       <mapping pattern="bin/www" type="JavaScript" />
       <mapping pattern=".env.analysis" type="PLAIN_TEXT" />
       <mapping pattern=".yarnignore" type="PLAIN_TEXT" />
-      <mapping ext="lexx" type="PLAIN_TEXT" />
       <mapping ext="0" type="PLAIN_TEXT" />
-      <mapping ext=".tabnine.model" type="Tabnine project model file" />
-      <mapping ext=".tabnine" type="Tabnine project model file" />
-      <mapping ext=".model" type="Tabnine project model file" />
-      <mapping ext="tabnine" type="Tabnine project model file" />
-      <mapping ext="model" type="Tabnine project model file" />
+      <mapping ext="lexx" type="PLAIN_TEXT" />
       <mapping pattern="index" type="Vue.js" />
       <mapping pattern="logQuery/index" type="Vue.js" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
@@ -20,6 +15,11 @@
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="makefile" approved="true" type="textmate" />
       <removed_mapping ext="snakefile" approved="true" type="textmate" />
+      <mapping ext=".model" type="Tabnine project model file" />
+      <mapping ext=".tabnine" type="Tabnine project model file" />
+      <mapping ext=".tabnine.model" type="Tabnine project model file" />
+      <mapping ext="model" type="Tabnine project model file" />
+      <mapping ext="tabnine" type="Tabnine project model file" />
     </extensionMap>
   </component>
 </application>
