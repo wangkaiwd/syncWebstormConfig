@@ -24,6 +24,7 @@
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="meta p" />
   </action>
+  <action id="GotoLine" />
   <action id="InsertLiveTemplate" />
   <action id="NextOccurence">
     <keyboard-shortcut first-keystroke="meta alt down" />
@@ -39,6 +40,9 @@
   <action id="PrevSplitter">
     <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="meta l" />
+  </action>
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="meta o" />
   </action>
@@ -52,9 +56,7 @@
     <keyboard-shortcut first-keystroke="ctrl equals" />
   </action>
   <action id="SwitcherRecentEditedChangedToggleCheckBox" />
-  <action id="Terminal.ClearBuffer">
-    <keyboard-shortcut first-keystroke="meta l" />
-  </action>
+  <action id="Terminal.ClearBuffer" />
   <action id="Terminal.SwitchFocusToEditor">
     <keyboard-shortcut first-keystroke="escape" />
     <keyboard-shortcut first-keystroke="meta i" />
@@ -74,6 +76,7 @@
   <action id="Unsplit">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
+  <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.Push" />
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl m" />
