@@ -25,6 +25,9 @@
     <keyboard-shortcut first-keystroke="meta p" />
   </action>
   <action id="GotoLine" />
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="shift meta p" />
+  </action>
   <action id="InsertLiveTemplate" />
   <action id="NextOccurence">
     <keyboard-shortcut first-keystroke="meta alt down" />
