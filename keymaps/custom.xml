@@ -60,10 +60,6 @@
   </action>
   <action id="SwitcherRecentEditedChangedToggleCheckBox" />
   <action id="Terminal.ClearBuffer" />
-  <action id="Terminal.SwitchFocusToEditor">
-    <keyboard-shortcut first-keystroke="escape" />
-    <keyboard-shortcut first-keystroke="meta i" />
-  </action>
   <action id="TerminalSplitActionBase$Vertical">
     <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
