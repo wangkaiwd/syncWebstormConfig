@@ -1,0 +1,5 @@
+<list display="format code" description="select tools of format code">
+  <action id="Javascript.Linters.EsLint.Fix" />
+  <action id="TsLintFileFixAction" />
+  <action id="ReformatCode" />
+</list>
