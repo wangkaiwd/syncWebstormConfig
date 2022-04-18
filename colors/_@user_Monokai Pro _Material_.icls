@@ -4,18 +4,9 @@
     <property name="created">2022-04-09T13:02:31</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2021.3.3.0.0</property>
-    <property name="modified">2022-04-09T23:45:07</property>
+    <property name="modified">2022-04-18T23:57:00</property>
     <property name="originalScheme">Monokai Pro (Material)</property>
   </metaInfo>
-  <option name="LINE_SPACING" value="1.4" />
-  <font>
-    <option name="EDITOR_FONT_NAME" value="Menlo" />
-    <option name="EDITOR_FONT_SIZE" value="12" />
-  </font>
-  <font>
-    <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
-    <option name="EDITOR_FONT_SIZE" value="12" />
-  </font>
   <console-font>
     <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
     <option name="EDITOR_FONT_SIZE" value="12" />
@@ -25,6 +16,7 @@
     <option name="EDITOR_FONT_SIZE" value="12" />
   </console-font>
   <option name="CONSOLE_LIGATURES" value="true" />
+  <option name="CONSOLE_LINE_SPACING" value="1.4" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="a9dc76" />
     <option name="ANNOTATIONS_COLOR" value="fffbf7" />
@@ -84,6 +76,7 @@
     <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="78dce8" />
     <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="78dce8" />
     <option name="FILESTATUS_OBSOLETE" value="ffcb6b" />
+    <option name="FILESTATUS_RENAMED" value="c679dd" />
     <option name="FILESTATUS_SUPPRESSED" value="727072" />
     <option name="FILESTATUS_SWITCHED" value="ab9df2" />
     <option name="FILESTATUS_UNKNOWN" value="f59762" />
