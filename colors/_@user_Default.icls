@@ -1,10 +1,10 @@
-<scheme name="_@user_Darcula" version="142" parent_scheme="Darcula">
+<scheme name="_@user_Default" version="142" parent_scheme="Default">
   <metaInfo>
-    <property name="created">2022-03-19T14:54:38</property>
+    <property name="created">2022-05-01T11:49:48</property>
     <property name="ide">WebStorm</property>
-    <property name="ideVersion">2021.3.3.0.0</property>
-    <property name="modified">2022-05-01T13:55:50</property>
-    <property name="originalScheme">Darcula</property>
+    <property name="ideVersion">2022.1.0.0</property>
+    <property name="modified">2022-05-01T13:52:25</property>
+    <property name="originalScheme">Default</property>
   </metaInfo>
   <colors>
     <option name="FILESTATUS_ADDED" value="c3e887" />

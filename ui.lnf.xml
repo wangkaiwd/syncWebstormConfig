@@ -3,6 +3,7 @@
     <option name="UI_SHOW_FILES" value="false" />
   </component>
   <component name="UISettings">
+    <option name="DISABLE_MNEMONICS" value="false" />
     <option name="EDITOR_TAB_LIMIT" value="1" />
     <option name="EDITOR_TAB_PLACEMENT" value="0" />
     <option name="FULL_PATHS_IN_TITLE_BAR" value="true" />
