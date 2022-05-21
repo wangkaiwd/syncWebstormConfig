@@ -20,4 +20,31 @@
       <option name="VUE_TOP_LEVEL" value="true" />
     </context>
   </template>
+  <template name="vaction" value="actions: {&#10; $updateValue$({commit}, $payload$) {&#10;  commit('$updateValue$', $payload$);&#10; }&#10;}" description="Vuex action" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="updateValue" expression="" defaultValue="&quot;updateValue&quot;" alwaysStopAt="true" />
+    <variable name="payload" expression="" defaultValue="&quot;payload&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="vmutation" value="mutations: {&#10; $updateValue$(state, $payload$) {&#10;  state.$value$ = $payload$;&#10; }&#10;}" description="Vuex mutation" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="updateValue" expression="" defaultValue="&quot;updateValue&quot;" alwaysStopAt="true" />
+    <variable name="payload" expression="" defaultValue="&quot;payload&quot;" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="&quot;value&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="vfilter" value="filters: {&#10; $fnName$: function($value$) {&#10;  return $value$$END$;&#10; }&#10;}" description="Vue filter" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="fnName" expression="" defaultValue="&quot;fnName&quot;" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="&quot;value&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="vimport-gsap" value="import gsap from 'gsap';" description="Import GSAP library" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="vmethod" value="methods: {&#10; $name$() {&#10;  $END$&#10; }&#10;}," description="Vue method" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="name" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="vmixin" value="const $mixinName$ = {&#10; mounted() {&#10;  console.log('hello from mixin!');&#10; },&#10;};" description="Vue mixin" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="mixinName" expression="" defaultValue="&quot;mixinName&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
 </templateSet>

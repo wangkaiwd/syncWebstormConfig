@@ -3,6 +3,18 @@
     <option name="deletedKeys">
       <list>
         <TemplateKey>
+          <option name="groupName" value="Zen HTML" />
+          <option name="key" value="cc:ie6" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="Zen HTML" />
+          <option name="key" value="cc:ie" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="Zen HTML" />
+          <option name="key" value="object" />
+        </TemplateKey>
+        <TemplateKey>
           <option name="groupName" value="Shell Script Hidden" />
           <option name="key" value="shell_if" />
         </TemplateKey>
@@ -117,6 +129,10 @@
         <TemplateKey>
           <option name="groupName" value="Shell Script Hidden" />
           <option name="key" value="shell_command exists" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="Conventional commit" />
+          <option name="key" value="cs" />
         </TemplateKey>
         <TemplateKey>
           <option name="groupName" value="JavaScript" />

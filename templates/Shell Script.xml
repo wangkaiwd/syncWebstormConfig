@@ -1,6 +1,0 @@
-<templateSet group="Shell Script">
-  <template name="mkdir" value="mkdir &quot;$DIRECTORY$&quot;" description="Create directory" toReformat="false" toShortenFQNames="false">
-    <variable name="DIRECTORY" expression="" defaultValue="&quot;dirname&quot;" alwaysStopAt="true" />
-    <context />
-  </template>
-</templateSet>
