@@ -6,9 +6,11 @@
       <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="rsc" value="const $TM_FILENAME_BASE$ = () =&gt; {&#10; return (&#10;  &lt;div&gt;&#10;   $END$&#10;  &lt;/div&gt;&#10; );&#10;};&#10;&#10;export default $TM_FILENAME_BASE$;" description="Creates a stateless React component without PropTypes and ES6 module system" toReformat="true" toShortenFQNames="true">
+  <template name="rfc" value="const $TM_FILENAME_BASE$ = () =&gt; {&#10; return (&#10;  &lt;div&gt;&#10;   $END$&#10;  &lt;/div&gt;&#10; );&#10;};&#10;&#10;export default $TM_FILENAME_BASE$;" description="Creates a react functional component" toReformat="true" toShortenFQNames="true">
     <variable name="TM_FILENAME_BASE" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context />
+    <context>
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
   </template>
   <template name="bnd" value="this.$1$ = this.$1$.bind(this);$END$" description="Binds the this of a method. To be used inside a constructor" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="1" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
