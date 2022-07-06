@@ -1,0 +1,6 @@
+<application>
+  <component name="OverrideFileTypeManager">
+    <file url="file://$USER_HOME$/code/vue-cli/packages/@vue/cli-service/generator/template/src/App.vue" />
+    <file url="file://$USER_HOME$/code/vue-cli/packages/@vue/cli-service/generator/template/src/main.js" />
+  </component>
+</application>
