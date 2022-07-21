@@ -1,0 +1,36 @@
+<application>
+  <component name="smartsearch">
+    <option name="a">
+      <list>
+        <e>
+          <option name="a" value="true" />
+          <option name="b" value="Google" />
+          <option name="c" value="https://www.google.com/search?q=%s" />
+        </e>
+        <e>
+          <option name="a" value="true" />
+          <option name="b" value="GitHub" />
+          <option name="c" value="https://github.com/search?q=%s" />
+        </e>
+        <e>
+          <option name="a" value="true" />
+          <option name="b" value="Stack Overflow" />
+          <option name="c" value="https://stackoverflow.com/search?q=%s" />
+        </e>
+        <e>
+          <option name="a" value="true" />
+          <option name="b" value="Translate" />
+          <option name="c" value="https://translate.google.com/?sl=en&amp;tl=zh-CN&amp;text=%s&amp;op=translate" />
+        </e>
+        <e>
+          <option name="b" value="searchcode" />
+          <option name="c" value="https://searchcode.com/?q=%s" />
+        </e>
+        <e>
+          <option name="b" value="programcreek" />
+          <option name="c" value="https://www.google.com/search?q=%s site:programcreek.com" />
+        </e>
+      </list>
+    </option>
+  </component>
+</application>
