@@ -19,10 +19,16 @@
     <option name="widgets">
       <map>
         <entry key="Encoding" value="false" />
+        <entry key="FlowJSInfo" value="false" />
+        <entry key="JSONSchemaSelector" value="false" />
+        <entry key="Memory" value="true" />
         <entry key="Notifications" value="false" />
-        <entry key="Position" value="false" />
         <entry key="ReadOnlyAttribute" value="false" />
         <entry key="com.intellij.psi.codeStyle.statusbar.CodeStyleStatusBarWidget" value="false" />
+        <entry key="mtProjectFactory" value="false" />
+        <entry key="mtThemeFactory" value="false" />
+        <entry key="settingsEntryPointWidget" value="false" />
+        <entry key="webDeployment.default.server.widget" value="false" />
       </map>
     </option>
   </component>
