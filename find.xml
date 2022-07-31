@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project Files" />
-    <option name="defaultScopeName" value="Project Files" />
-    <option name="SEARCH_SCOPE" value="Project Files" />
+    <option name="customScope" value="Directory '…/packages/cli-builder/lib'" />
+    <option name="defaultScopeName" value="Directory '…/packages/cli-builder/lib'" />
+    <option name="SEARCH_SCOPE" value="Directory '…/packages/cli-builder/lib'" />
     <mask>*.xml</mask>
     <mask>*.css</mask>
     <mask>*.shtml</mask>
