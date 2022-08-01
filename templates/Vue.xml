@@ -45,7 +45,7 @@
   <template name="vanim" value="&lt;transition&#10; mode=&quot;out-in&quot;&#10; @before-enter=&quot;beforeEnter&quot;&#10; @enter=&quot;enter&quot;&#10;&#10; @before-leave=&quot;beforeLeave&quot;&#10; @leave=&quot;leave&quot;&#10; :css=&quot;false&quot;&gt;&#10;&#10;&lt;/transition&gt;" description="Vue transition component with JavaScript hooks" toReformat="true" toShortenFQNames="true" deactivated="true">
     <context />
   </template>
-  <template name="vjsx" value="export default {&#10;  name: '$ComponentName$',&#10;  setup() {&#10;    return () =&gt; &lt;div&gt;$END$&lt;/div&gt;&#10;  }&#10;}" description="create vue3 jsx component" toReformat="true" toShortenFQNames="true">
+  <template name="vjsx" value="export default defineComponent({&#10;  name: '$ComponentName$',&#10;  setup() {&#10;    return () =&gt; &lt;div&gt;$END$&lt;/div&gt;&#10;  }&#10;})" description="create vue3 jsx component" toReformat="true" toShortenFQNames="true">
     <variable name="ComponentName" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="Vue" value="true" />
