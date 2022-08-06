@@ -75,6 +75,9 @@
   </action>
   <action id="SwitcherRecentEditedChangedToggleCheckBox" />
   <action id="Terminal.ClearBuffer" />
+  <action id="Terminal.SplitVertically">
+    <keyboard-shortcut first-keystroke="ctrl n" />
+  </action>
   <action id="TerminalSplitActionBase$Vertical">
     <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
