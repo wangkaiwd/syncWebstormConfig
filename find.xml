@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Directory '…/packages/cli-builder/lib'" />
-    <option name="defaultScopeName" value="Directory '…/packages/cli-builder/lib'" />
-    <option name="SEARCH_SCOPE" value="Directory '…/packages/cli-builder/lib'" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
     <mask>*.xml</mask>
     <mask>*.css</mask>
     <mask>*.shtml</mask>
