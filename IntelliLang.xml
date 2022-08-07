@@ -5,5 +5,10 @@
       <single-file value="true" />
       <place disabled="true"><![CDATA[isHtmlLikeText()]]></place>
     </injection>
+    <injection language="Markdown" injector-id="xml">
+      <display-name>docs</display-name>
+      <single-file value="false" />
+      <place><![CDATA[xmlTag().withLocalName(string().equalTo("docs")).withNamespace(string().equalTo("http://www.w3.org/1999/html"))]]></place>
+    </injection>
   </component>
 </application>
