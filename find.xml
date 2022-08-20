@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File Cared" />
-    <option name="defaultScopeName" value="File Cared" />
-    <option name="SEARCH_SCOPE" value="File Cared" />
+    <option name="customScope" value="website" />
+    <option name="defaultScopeName" value="website" />
+    <option name="SEARCH_SCOPE" value="website" />
     <mask>*.xml</mask>
     <mask>*.css</mask>
     <mask>*.shtml</mask>
