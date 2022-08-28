@@ -1,5 +1,6 @@
 <application>
   <component name="OverrideFileTypeManager">
+    <file url="file://$USER_HOME$/Code/engineering/packages/cli-builder/template/package.json" value="EJS" />
     <file url="file://$USER_HOME$/Code/vue-cli/packages/@vue/cli-service/generator/template/src/App.vue" />
     <file url="file://$USER_HOME$/Code/vue-cli/packages/@vue/cli-service/generator/template/src/main.js" />
   </component>
