@@ -4,7 +4,7 @@
     <property name="created">2022-03-19T14:54:38</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2021.3.3.0.0</property>
-    <property name="modified">2022-08-28T17:58:17</property>
+    <property name="modified">2022-09-03T12:30:10</property>
     <property name="originalScheme">Atom One Dark (Material)</property>
   </metaInfo>
   <console-font>
@@ -1273,10 +1273,6 @@
         <option name="FOREGROUND" value="9373a5" />
       </value>
     </option>
-    <option name="JADE_FILE_PATH" baseAttributes="DEFAULT_STRING" />
-    <option name="JADE_FILTER_NAME" baseAttributes="DEFAULT_LABEL" />
-    <option name="JADE_JS_BLOCK" baseAttributes="DEFAULT_IDENTIFIER" />
-    <option name="JADE_STATEMENTS" baseAttributes="DEFAULT_KEYWORD" />
     <option name="JAVA.THIS_SUPER">
       <value>
         <option name="FOREGROUND" value="e06c75" />

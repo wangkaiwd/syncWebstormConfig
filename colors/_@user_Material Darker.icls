@@ -4,7 +4,7 @@
     <property name="created">2022-03-19T14:58:29</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2021.3.3.0.0</property>
-    <property name="modified">2022-09-03T12:11:41</property>
+    <property name="modified">2022-09-03T12:27:50</property>
     <property name="originalScheme">Material Darker</property>
   </metaInfo>
   <console-font>
@@ -1283,10 +1283,6 @@
         <option name="FOREGROUND" value="eeffff" />
       </value>
     </option>
-    <option name="JADE_FILE_PATH" baseAttributes="DEFAULT_STRING" />
-    <option name="JADE_FILTER_NAME" baseAttributes="DEFAULT_LABEL" />
-    <option name="JADE_JS_BLOCK" baseAttributes="DEFAULT_IDENTIFIER" />
-    <option name="JADE_STATEMENTS" baseAttributes="DEFAULT_KEYWORD" />
     <option name="JAVA.IMPORT_PACKAGE">
       <value>
         <option name="FOREGROUND" value="f78c6c" />
