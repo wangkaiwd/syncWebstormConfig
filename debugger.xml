@@ -6,7 +6,7 @@
     <general />
     <debuggers>
       <debugger id="javascript">
-        <configuration alwaysDoSmartStepInto="false" doNotStepIntoLibraryCode="false" watchReturnValues="true">
+        <configuration alwaysDoSmartStepInto="false" watchReturnValues="true">
           <custom-object-presentation />
         </configuration>
       </debugger>
