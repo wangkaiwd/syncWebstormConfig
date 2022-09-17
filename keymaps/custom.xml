@@ -4,11 +4,17 @@
   </action>
   <action id="ChangesView.ToggleCommitUi" />
   <action id="CheckinProject" />
+  <action id="EditorBackwardParagraph">
+    <keyboard-shortcut first-keystroke="ctrl up" />
+  </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="shift meta k" />
   </action>
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
+  </action>
+  <action id="EditorForwardParagraph">
+    <keyboard-shortcut first-keystroke="ctrl down" />
   </action>
   <action id="EditorJoinLines">
     <keyboard-shortcut first-keystroke="meta j" />
