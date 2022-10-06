@@ -2,6 +2,7 @@
   <component name="GitToolBoxAppSettings2">
     <option name="absoluteDateTimeStyle" value="ISO_8601" />
     <option name="autoFetchIntervalMinutes" value="40" />
+    <option name="blameStatusAuthorNameType" value="FULL" />
     <option name="commitDialogGitmojiCompletion" value="true" />
     <option name="showEditorInlineBlame" value="false" />
     <option name="version" value="6" />
