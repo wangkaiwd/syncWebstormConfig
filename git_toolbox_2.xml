@@ -5,6 +5,7 @@
     <option name="blameStatusAuthorNameType" value="FULL" />
     <option name="commitDialogGitmojiCompletion" value="true" />
     <option name="showEditorInlineBlame" value="false" />
+    <option name="startupNotificationVersion" value="1" />
     <option name="version" value="6" />
   </component>
 </application>
