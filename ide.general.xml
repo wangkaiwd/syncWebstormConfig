@@ -15,6 +15,10 @@
     <entry key="debugger.valueTooltipAutoShowOnSelection" value="true" />
     <entry key="ide.experimental.ui" value="true" />
     <entry key="debugger.new.tool.window.layout" value="true" />
+    <entry key="ide.editor.tab.selection.animation" value="true" />
+    <entry key="ide.new.editor.tabs.vertical.borders" value="true" />
+    <entry key="editor.focus.mode.color.light" value="848bbd" />
+    <entry key="editor.focus.mode.color.dark" value="848bbd" />
   </component>
   <component name="StatusBar">
     <option name="widgets">
