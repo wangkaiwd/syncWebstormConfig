@@ -4,7 +4,7 @@
     <property name="created">2022-03-19T14:54:38</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2021.3.3.0.0</property>
-    <property name="modified">2022-08-28T17:56:07</property>
+    <property name="modified">2022-11-17T23:49:20</property>
     <property name="originalScheme">SynthWave '84 (Material)</property>
   </metaInfo>
   <console-font>
@@ -1284,10 +1284,6 @@
         <option name="FOREGROUND" value="ff7edb" />
       </value>
     </option>
-    <option name="JADE_FILE_PATH" baseAttributes="DEFAULT_STRING" />
-    <option name="JADE_FILTER_NAME" baseAttributes="DEFAULT_LABEL" />
-    <option name="JADE_JS_BLOCK" baseAttributes="DEFAULT_IDENTIFIER" />
-    <option name="JADE_STATEMENTS" baseAttributes="DEFAULT_KEYWORD" />
     <option name="JAVA.PRIMITIVE">
       <value>
         <option name="FOREGROUND" value="f97e72" />
@@ -3647,8 +3643,6 @@
         <option name="FOREGROUND" value="848bbd" />
       </value>
     </option>
-    <option name="TAPESTRY_COMPONENT_PARAMATER" baseAttributes="" />
-    <option name="TAPESTRY_COMPONENT_TAG" baseAttributes="" />
     <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ff7edb" />
