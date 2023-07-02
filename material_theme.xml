@@ -1,10 +1,6 @@
 <application>
   <component name="MaterialThemeConfig">
-    <option name="UIFont" value="JetBrains Mono" />
-    <option name="compactMenus" value="true" />
-    <option name="compactStatusBar" value="true" />
     <option name="compactTables" value="true" />
-    <option name="useMaterialFont" value="true" />
     <option name="compactDropdowns" value="true" />
     <option name="compactSidebar" value="true" />
     <option name="isCompactMenus" value="true" />
@@ -18,7 +14,7 @@
     <option name="accentColor" value="f92aad" />
     <option name="selectedTheme" value="SYNTHWAVE" />
     <option name="userId" value="3d9974e3:171d0c45336:-8000" />
-    <option name="version" value="8.2.0" />
+    <option name="version" value="8.6.4" />
     <option name="uiFont" value="JetBrains Mono" />
     <option name="showWhatsNew" value="false" />
   </component>
