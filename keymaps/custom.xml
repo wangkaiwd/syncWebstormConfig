@@ -45,6 +45,9 @@
   <action id="JumpToNextChange">
     <keyboard-shortcut first-keystroke="shift meta close_bracket" />
   </action>
+  <action id="ManageRecentProjects">
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta p" />
+  </action>
   <action id="NextSplitter">
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
